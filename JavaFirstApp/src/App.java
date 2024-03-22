@@ -3,17 +3,21 @@ import java.time.Period;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        int id = 9;
-        String str = "EmpID";
-        double salary = 22.0;
-        System.out.println(str + " " + id + "; Salary: " + salary);
-        System.out.println("Addition" + Add(1,2));
-        System.out.println("Subtract" + Subtract(1,2));
-        System.out.println("Multiplication" + Multiply(1,2));
-        System.out.println("Division" + Divide(1,2));
-        LocalDate dob = LocalDate.parse("2022-03-19");  
-        System.out.println("DOB: " + dob + "; Age: " + calculateAge(dob) + " years!");
+        // int id = 9;
+        // String str = "EmpID";
+        // double salary = 22.0;
+        // System.out.println(str + " " + id + "; Salary: " + salary);
+        // System.out.println("Addition" + Add(1,2));
+        // System.out.println("Subtract" + Subtract(1,2));
+        // System.out.println("Multiplication" + Multiply(1,2));
+        // System.out.println("Division" + Divide(1,2));
+        // LocalDate dob = LocalDate.parse("2022-03-19");  
+        // System.out.println("DOB: " + dob + "; Age: " + calculateAge(dob) + " years!");
+        Players p = new Players();
+        p.getPlayers();
     }
+
+    
 
     // Addition
     public static int Add(int a, int b) {
